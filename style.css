@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: wheat;
+}
+
+.container {
+    height: 50vmin;
+    width: 50vmin;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5vmin;
+}
+
+.menu {
+    width: 50vmin;
+    padding: 2vmin 0;
+    border-radius: 10vmin;
+    background: white;
+    opacity: .8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.option {
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 2.5vmin;
+    border: none;
+    overflow: hidden;
+}
+
+.option1 {
+    background-color: red;
+    opacity: .5;
+}
+
+.option2 {
+    background-color: green;
+    opacity: .5;
+}
+
+.option3 {
+    background-color: blue;
+    opacity: .5;
+}
+
+.option4 {
+    background-color: black;
+    opacity: .5;
+}
